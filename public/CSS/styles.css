@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body.sunny{
+    background-image: url('../images/sunny.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+body.clear{
+    background-image: url('../images/clear.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+body.cloudy{
+    background: url('../images/cloudy.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+body.overcast{
+    background: url('../images/Overcast.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+body.foggy_day{
+    background: url('../images/foggy-day.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+body.foggy_night{
+    background: url('../images/foggy-night.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+body.thunder{
+    background: url('../images/thunder.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+body.snow{
+    background: url('../images/snow.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+body.sleet{
+    background: url('../images/sleet.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+body.rain{
+    background: url('../images/rain.avif');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+#all{
+    background-color: rgba(200, 217, 230,0.3);
+    color: black;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 0;
+}
+#heading{
+    /* color: #C8D9E6; */
+
+}
+
+#navbar{
+    align-items: center;
+}
+
+#navbar .navbar-nav{
+
+    gap: 40%;
+    padding-left :10px;
+    padding-right: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#navbar .navbar-nav .nav-link{
+    color: black;
+}
+
+#form{
+    margin-top: 5%;
+    width: 60%;
+}
+
+.table-bordered{
+    border-color: black;
+}
