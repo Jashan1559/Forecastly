@@ -15,7 +15,8 @@ weatherForm.addEventListener('submit', (e)=>{
         return;
     }
     
-    fetch('http://localhost:3000/weather?address=' + location).then((response) =>{
+    // fetch('http://localhost:3000/weather?address=' + location).then((response) =>{
+    fetch('https://forecastly.onrender.com/weather?address=' + location).then((response) =>{
         response.json().then((data) =>{
             if(data.error){
                 errormessage.textContent = data.error;
