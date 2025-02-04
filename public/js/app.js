@@ -1,5 +1,3 @@
-console.log('Client side javascript file loaded' )
-
 const weatherForm = document.querySelector('form');
 const search = document.querySelector('input')
 const errormessage = document.querySelector('#error');
@@ -55,31 +53,6 @@ weatherForm.addEventListener('submit', (e)=>{
             `;
                 errormessage.textContent = '';
                 successmessage.innerHTML = WeatherDetails;
-
-                
-                // const weathercondition = data.Weather.forecast.toLowerCase();
-                // const isDay = data.Weather.is_day;
-
-                // let backgroundClass = "";
-                // if(weathercondition.includes("sunny") || weathercondition.includes("partly cloudy") || weathercondition.includes("clear")){
-                //     backgroundClass = isDay === "yes" ? "sunny" : "clear";
-                // } else if(weathercondition.includes("cloudy")){
-                //     backgroundClass = "cloudy";
-                // } else if(weathercondition.includes("overcast")){
-                //     backgroundClass = "overcast";
-                // } else if (weathercondition.includes("mist") || weathercondition.includes("fog") || weathercondition.includes("haze")) {
-                //     backgroundClass = isDay === "yes" ? "foggy_day" : "foggy_night";
-                // } else if (weathercondition.includes('thunder') || weathercondition.includes("heavy rain")){
-                //     backgroundClass = "thunder";
-                // } else if(weathercondition.includes("snow") ||weathercondition.includes("blizzard")){
-                //     backgroundClass = "snow";
-                // } else if(weathercondition.includes("sleet") || weathercondition.includes("freezing drizzle")){
-                //     backgroundClass = "sleet";
-                // } else if(weathercondition.includes("rain") || weathercondition.includes("drizzle")){
-                //     backgroundClass = "rain";
-                // }
-
-                // document.body.className = backgroundClass;
 
             }
             
